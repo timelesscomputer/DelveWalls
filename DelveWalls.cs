@@ -57,7 +57,7 @@ namespace DelveWalls
             foreach (Entity e in entites )
             {
                 
-                if (e.Path.Contains("DelveWall"))
+                if (e.Path.Contains("DelveChests"))
                     wall(e);
             }
             // Run tests done. now the Plugin 
