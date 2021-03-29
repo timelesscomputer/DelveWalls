@@ -66,7 +66,7 @@ namespace DelveWalls
 
         public void wall (Entity e)
         {
-            if (e.IsOpened)
+            if (!e.IsOpened)
             {
 
                 Vector2 delta = e.GridPos - GameController.Player.GridPos;
